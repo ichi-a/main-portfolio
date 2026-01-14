@@ -1,0 +1,48 @@
+
+.card {
+  max-width: 350px;
+  height: 230px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  cursor: pointer;
+  background: #fafafa;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  place-items: center;
+
+}
+.title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.imgWrap {
+  width: 318px;
+  height: 150px;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+@media (max-width: 780px) {
+  .grid {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 0;
+  }
+  .imgWrap {
+    width: 300px;
+  }
+}

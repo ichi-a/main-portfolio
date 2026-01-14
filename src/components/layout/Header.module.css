@@ -1,0 +1,39 @@
+
+.header {
+  max-width: 1800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    rgba(221, 221, 221,.5), rgb(250, 250, 250, .5)
+  );
+  margin: 0 auto;
+  padding: 6px 8.5rem 6px 13rem;
+  padding-right: clamp(20px, 10vw, 8.5rem);
+  padding-left: clamp(20px, 10vw, 13rem);
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.h2 {
+  font-size: 1.75rem;
+  font-weight:500;
+}
+.a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.a:hover {
+  color: #484848;
+  scale: 1.02;
+}
+@media (max-width: 580px) {
+  .h2 {
+    font-size: 1.2rem;
+  }
+.nav {
+  gap: 8px;
+}
+}

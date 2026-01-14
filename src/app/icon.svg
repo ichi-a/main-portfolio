@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1284)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(1.876675603217158,0,0,1.876675603217158,150,150)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="373"><svg width="373" height="373" viewBox="0 0 373 373" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="373" height="373" fill="white"></rect>
+<path d="M55 53L254.554 289.577" stroke="black" stroke-width="40"></path>
+<path d="M256.5 287.988L257.483 53.9901" stroke="black" stroke-width="40"></path>
+<line x1="35.998" y1="290.014" x2="145.998" y2="290" stroke="black" stroke-width="32"></line>
+<line x1="236.998" y1="54.0098" x2="346.998" y2="53.996" stroke="black" stroke-width="32"></line>
+<line x1="236.998" y1="290.014" x2="346.998" y2="290" stroke="black" stroke-width="32"></line>
+<line x1="36" y1="53" x2="146" y2="53" stroke="black" stroke-width="32"></line>
+<path d="M56.0175 288.01L55.8285 203.99" stroke="black" stroke-width="40"></path>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1284"><rect width="1000" height="1000" x="0" y="0" rx="300" ry="300"></rect></clipPath></defs></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1285)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(2.1447721179624666,0,0,2.1447721179624666,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="373"><svg width="373" height="373" viewBox="0 0 373 373" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="373" height="373" fill="white"></rect>
+<path d="M55 53L254.554 289.577" stroke="black" stroke-width="40"></path>
+<path d="M256.5 287.988L257.483 53.9901" stroke="black" stroke-width="40"></path>
+<line x1="35.998" y1="290.014" x2="145.998" y2="290" stroke="black" stroke-width="32"></line>
+<line x1="236.998" y1="54.0098" x2="346.998" y2="53.996" stroke="black" stroke-width="32"></line>
+<line x1="236.998" y1="290.014" x2="346.998" y2="290" stroke="black" stroke-width="32"></line>
+<line x1="36" y1="53" x2="146" y2="53" stroke="black" stroke-width="32"></line>
+<path d="M56.0175 288.01L55.8285 203.99" stroke="black" stroke-width="40"></path>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1285"><rect width="1000" height="1000" x="0" y="0" rx="300" ry="300"></rect></clipPath></defs></svg></g></svg>
