@@ -37,7 +37,7 @@ const WorksDetail = ({ item, onClose }: Props) => {
         onClick={(e: React.MouseEvent) => e.stopPropagation()}>
 
           {/* imageArea > image */}
-          <motion.div layoutID={`wrap-${item.id}`}>
+          <motion.div layoutId={`wrap-${item.id}`}>
             <div className={styles.imageWrap}>
               <img className={styles.image}
               src={item.image} alt={item.title} />
