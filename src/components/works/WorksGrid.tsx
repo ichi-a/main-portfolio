@@ -19,7 +19,7 @@ const WorksGrid = ({ data, onSelect, selectedId }: Props) => {
           className={styles.card}
           style={{ opacity: selectedId === item.id ? 0 : 1 }}
           layout>
-            <motion.div className={styles.imgWrap} layoutID={`wrap-${item.id}`}>
+            <motion.div className={styles.imgWrap} layoutId={`wrap-${item.id}`}>
               <img className={styles.image}
               src={item.image} alt={item.title} />
           </motion.div>
