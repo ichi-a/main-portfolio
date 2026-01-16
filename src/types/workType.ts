@@ -3,10 +3,15 @@ export type Tech = {
     icon: string;
 }
 
+export type Description = {
+    heading: string
+    body: string
+}
+
 export type Work = {
     title: string;
     image: string;
-    description?: string;
+    description?: Description[];
     techs?: Tech[];
     github?: string;
     vercel?: string;

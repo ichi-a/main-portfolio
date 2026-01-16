@@ -6,7 +6,14 @@ export const worksData: WorksData = [
   {
     title: "お知らせデモページ",
     image: "/images/sampleCorp.png",
-    description: "テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1",
+    description: [
+      {heading: "概要", body: "テキストテキストテキスト"},
+      {heading: "開発背景", body: "テキストテキストテキスト"},
+      {heading: "主な機能", body: "テキストテキストテキスト"},
+      {heading: "使用技術", body: "テキストテキストテキスト"},
+      {heading: "工夫した点", body: "テキストテキストテキスト"},
+      {heading: "改善点", body: "テキストテキストテキスト"},
+    ],
     techs: [
       {names: "Next.js", icon: "/logos/nextdotjs.svg"},
       {names: "Tailwind", icon: "/logos/tailwindcss.svg"},
@@ -20,7 +27,13 @@ export const worksData: WorksData = [
   {
     title: "タイトル2",
     image: "/images/app.jpg",
-    description: "テキスト2",
+    description: [
+      {heading: "概要", body: "テキストテキストテキスト"},
+      {heading: "開発背景", body: "テキストテキストテキスト"},
+      {heading: "主な機能", body: "テキストテキストテキスト"},
+      {heading: "使用技術", body: "テキストテキストテキスト"},
+      {heading: "工夫した点", body: "テキストテキストテキスト"},
+    ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},
       {names: "Motion", icon: "/logos/motion.svg"}
@@ -32,7 +45,13 @@ export const worksData: WorksData = [
   {
     title: "タイトル3",
     image: "/images/app2.png",
-    description: "テキスト3",
+    description: [
+      {heading: "概要", body: "テキストテキストテキスト"},
+      {heading: "開発背景", body: "テキストテキストテキスト"},
+      {heading: "主な機能", body: "テキストテキストテキスト"},
+      {heading: "使用技術", body: "テキストテキストテキスト"},
+      {heading: "工夫した点", body: "テキストテキストテキスト"},
+    ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},
       {names: "Motion", icon: "/logos/motion.svg"}
@@ -44,7 +63,13 @@ export const worksData: WorksData = [
   {
     title: "タイトル4",
     image: "/images/app-d.jpg",
-    description: "テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4テキスト4",
+    description: [
+      {heading: "概要", body: "テキストテキストテキスト"},
+      {heading: "開発背景", body: "テキストテキストテキスト"},
+      {heading: "主な機能", body: "テキストテキストテキスト"},
+      {heading: "使用技術", body: "テキストテキストテキスト"},
+      {heading: "工夫した点", body: "テキストテキストテキスト"},
+    ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},
       {names: "Motion", icon: "/logos/motion.svg"},

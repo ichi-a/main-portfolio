@@ -9,6 +9,7 @@ type Props = {
 };
 
 const WorksDetail = ({ item, onClose }: Props) => {
+  console.log(item)
   useEffect(() => {
     const scroll = document.body.style.overflow
     document.body.style.overflow = "hidden"
@@ -46,6 +47,7 @@ const WorksDetail = ({ item, onClose }: Props) => {
 
           {/* textArea > tech + title + description + link */}
           <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.3, delay: 0.2}} className={styles.textArea}>
+            {/* 使用技術ロゴ */}
             <div className={styles.techArea}>
               {item.techs?.map(tech => (
               <div className={styles.techWrap} key={tech.names}>
@@ -54,9 +56,18 @@ const WorksDetail = ({ item, onClose }: Props) => {
               </div>
               ))}
             </div>
+            {/* タイトル */}
             <h3 className={styles.title}>{item.title}</h3>
-            <p className={styles.description}>{item.description}</p>
-
+            {/* description */}
+            <div className={styles.description}>
+            {item.description?.map((content, i) => (
+              <div key={i}>
+                <h4>{content.heading}</h4>
+                <p>{content.body}</p>
+              </div>
+            ))}
+            </div>
+            {/* リンク */}
             <div className={styles.links}>
               <div>
                 <img src="logos/github.svg" alt="" className={styles.logo}/>
@@ -69,9 +80,6 @@ const WorksDetail = ({ item, onClose }: Props) => {
             </div>
             <button onClick={onClose} className={styles.closeBtn}>close</button>
           </motion.div>
-
-
-
       </motion.div>
     </motion.div>
   );
