@@ -4,12 +4,12 @@ import { WorksData } from "@/types/workType";
 
 export const worksData: WorksData = [
   {
-    title: "タイトル1",
-    image: "/images/app2.png",
+    title: "お知らせデモページ",
+    image: "/images/sampleCorp.png",
     description: "テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1テキスト1",
     techs: [
       {names: "Next.js", icon: "/logos/nextdotjs.svg"},
-      {names: "Motion", icon: "/logos/motion.svg"},
+      {names: "Tailwind", icon: "/logos/tailwindcss.svg"},
       {names: "TypeScript", icon: "/logos/typescript.svg"},
     ],
     github: "github1",
