@@ -3,29 +3,11 @@
   max-width: 1800px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   background:#fafafa;
   margin: 0 auto;
   padding: 6px 8.5rem 6px 13rem;
   padding-right: clamp(20px, 10vw, 8.5rem);
   padding-left: clamp(20px, 10vw, 13rem);
 }
-.nav {
-  display: flex;
-  justify-content: center;
-  gap: clamp(1rem,2rem,4rem);
-}
 
-.a {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.a:hover {
-  color: #484848;
-  scale: 1.02;
-}
-@media (max-width: 580px) {
-  .nav {
-    gap: 8px;
-  }
-}

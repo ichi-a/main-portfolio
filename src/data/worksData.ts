@@ -1,11 +1,15 @@
 import { WorksData } from "@/types/workType";
+import sampleCorp from "@/assets/img/sampleCorp.png"
+import app1 from "@/assets/img/app.jpg"
+import app2 from "@/assets/img/app2.png"
+import appd from "@/assets/img/app-d.jpg"
 
 
 
 export const worksData: WorksData = [
   {
     title: "お知らせデモページ",
-    image: "/images/sampleCorp.png",
+    image: sampleCorp,
     description: [
       {heading: "概要", body: "テキストテキストテキスト"},
       {heading: "開発背景", body: "テキストテキストテキスト"},
@@ -26,7 +30,7 @@ export const worksData: WorksData = [
   },
   {
     title: "タイトル2",
-    image: "/images/app.jpg",
+    image: app1,
     description: [
       {heading: "概要", body: "テキストテキストテキスト"},
       {heading: "開発背景", body: "テキストテキストテキスト"},
@@ -44,7 +48,7 @@ export const worksData: WorksData = [
   },
   {
     title: "タイトル3",
-    image: "/images/app2.png",
+    image: app2,
     description: [
       {heading: "概要", body: "テキストテキストテキスト"},
       {heading: "開発背景", body: "テキストテキストテキスト"},
@@ -62,7 +66,7 @@ export const worksData: WorksData = [
   },
   {
     title: "タイトル4",
-    image: "/images/app-d.jpg",
+    image: appd,
     description: [
       {heading: "概要", body: "テキストテキストテキスト"},
       {heading: "開発背景", body: "テキストテキストテキスト"},

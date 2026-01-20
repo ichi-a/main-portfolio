@@ -2,6 +2,8 @@ import { motion } from "motion/react";
 import { Work } from "@/types/workType";
 import styles from "./WorksDetail.module.css";
 import { useEffect } from "react";
+import Image from "next/image";
+
 
 type Props = {
   item: Work;
@@ -40,8 +42,8 @@ const WorksDetail = ({ item, onClose }: Props) => {
           {/* imageArea > image */}
           <motion.div layoutId={`wrap-${item.id}`}>
             <div className={styles.imageWrap}>
-              <img className={styles.image}
-              src={item.image} alt={item.title} />
+              <Image className={styles.image}
+              src={item.image} alt={item.title} placeholder="blur" />
             </div>
           </motion.div>
 

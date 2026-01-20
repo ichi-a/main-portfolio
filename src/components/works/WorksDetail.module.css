@@ -1,6 +1,6 @@
 .detailCard {
   background: #fafafa;
-  padding: 48px;
+  padding: clamp(10px, 4vw, 48px);
   padding-bottom: 20px;
   border-radius: 15px;
   max-width: 90%;
@@ -25,7 +25,7 @@
 }
 /* imageArea */
 .imageWrap {
-  max-width: 700px;
+  width: 50vw;
   margin: 0 auto;
 }
 .image {
@@ -126,11 +126,8 @@
   z-index: 100;
 }
 
-@media (max-width: 700px) {
-  /* .image {
-    width: 300px;
-  } */
-  /* .detailCard {
-    width: 340px;
-  } */
+@media (max-width: 780px) {
+  .imageWrap {
+  width: 80vw;
+}
 }

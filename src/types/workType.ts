@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type Tech = {
     names: string;
     icon: string;
@@ -10,7 +12,7 @@ export type Description = {
 
 export type Work = {
     title: string;
-    image: string;
+    image: StaticImageData;
     description?: Description[];
     techs?: Tech[];
     github?: string;

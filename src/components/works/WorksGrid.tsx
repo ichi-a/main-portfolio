@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Work } from "@/types/workType";
 import styles from "./WorkGrid.module.css";
+import Image from "next/image";
 
 type Props = {
   data: Work[];
@@ -20,8 +21,8 @@ const WorksGrid = ({ data, onSelect, selectedId }: Props) => {
           style={{ opacity: selectedId === item.id ? 0 : 1 }}
           layout>
             <motion.div className={styles.imgWrap} layoutId={`wrap-${item.id}`}>
-              <img className={styles.image}
-              src={item.image} alt={item.title} />
+              <Image className={styles.image}
+              src={item.image} alt={item.title} placeholder="blur" />
           </motion.div>
           <h3 className={styles.title}>{item.title}</h3>
         </motion.div>
