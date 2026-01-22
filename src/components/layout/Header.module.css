@@ -1,5 +1,6 @@
 
 .header {
+  width: 100%;
   max-width: 1800px;
   display: flex;
   align-items: center;
@@ -11,6 +12,13 @@
   padding: 6px 8.5rem 6px 13rem;
   padding-right: clamp(20px, 10vw, 8.5rem);
   padding-left: clamp(20px, 10vw, 13rem);
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color:#787878;
+  transition: transform 0.4s ease-in-out;
+
 }
 .nav {
   display: flex;

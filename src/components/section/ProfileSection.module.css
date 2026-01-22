@@ -1,48 +1,56 @@
 .section {
+  padding-top: 120px;
   max-width: 1800px;
-  min-height: 800px;
-  /* padding-bottom: 200px; */
   margin: 0 auto;
-  padding: 80px 0 160px 0;
+}
+.titleWrap {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(2,auto);
-  grid-template-areas:
-  ". h1 profImg . ."
-  ". . profImg textWrap textWrap";
-}
-.img {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  background-color: darkgrey;
-}
-.profImg {
-  grid-area: profImg;
-  text-align: center;
-  padding-top: 90px;
+  grid-template-columns: repeat(5, 1fr);
 }
 .h1 {
-  grid-area: h1;
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   font-weight: bold;
   letter-spacing: .2rem;
+  grid-column: 2/3;
+}
+.prof-container {
+  max-width: 100%;
+  min-height: 800px;
+  margin: 0 auto;
+  padding: 80px 0 160px 0;
+}
+.imgwrap {
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.img {
+  object-fit: contain;
+}
+.profCenter {
+  text-align: center;
+  padding-top: 90px;
+  margin: 0 auto;
+}
+.textContainer {
+  width: 100%;
+  margin: 0 auto;
 }
 .textWrap {
-  grid-area: textWrap;
-  display: grid;
-  text-align: center;
-  align-items: end;
   line-height: 1.7;
   letter-spacing: .05rem;
   padding-bottom: 24px;
   padding-right:clamp(5px,5vw,9vw);
+  margin: 0 auto;
+  text-align: right;
+}
+.line1 {
+  margin-right: 3.4rem;
 }
 .line2 {
-  margin-left: 1.7rem;
-}
-.line3 {
-  margin-left: 3.4rem;
+  margin-right: 1.7rem;
 }
 .p {
   margin-top: 15px;
@@ -58,6 +66,6 @@
     padding-right: 100px;
   }
   .textWrap {
-    padding-left: 100px;
+    padding-left: 10px;
   }
 }

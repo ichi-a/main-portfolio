@@ -8,11 +8,13 @@ const AboutSection = () => {
     <section id="about-section" className={Styles.section}>
       <div className={Styles.sectionTitle}>
         <h2 className={Styles.h2}>About</h2>
+      </div>
+      <div className={Styles.h3Title}>
         <h3 className={Styles.h3}>Skills</h3>
       </div>
       <div className={Styles.container}>
           <SkillsCard />
-        </div>
+      </div>
     </section>
   );
 }

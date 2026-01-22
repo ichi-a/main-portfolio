@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
-import { ScrollBg } from "@/animation/ScrollBg";
+// import { ScrollBg } from "@/animation/ScrollBg";
 
 <meta name="apple-mobile-portfolio" content="MyPortfolio" />
 
@@ -40,7 +40,7 @@ export default function RootLayout(
   return (
     <html lang="ja" className={`${inter.variable} ${noto.variable}`}>
       <body>
-        <ScrollBg />
+        {/* <ScrollBg /> */}
         <Header />
         {children}
         <Footer />
