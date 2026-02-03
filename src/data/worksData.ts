@@ -11,12 +11,13 @@ export const worksData: WorksData = [
     title: "お知らせデモページ",
     image: sampleCorp,
     description: [
-      {heading: "概要", body: "テキストテキストテキスト"},
-      {heading: "開発背景", body: "テキストテキストテキスト"},
-      {heading: "主な機能", body: "テキストテキストテキスト"},
-      {heading: "使用技術", body: "テキストテキストテキスト"},
-      {heading: "工夫した点", body: "テキストテキストテキスト"},
-      {heading: "改善点", body: "テキストテキストテキスト"},
+      {heading: "概要", body: "架空の企業のお知らせページを想定したデモページ"},
+      {heading: "開発背景", body: "ヘッドレスCMSに触れてみたいと考えて。"},
+      {heading: "主な機能", body: "microCMS(外部サイト)から更新可能。"},
+      {heading: "使用技術", body: "Next.js Parallel Routes / Intercepting Routes"},
+      {heading: "工夫した点", body: "ユーザーにページを移動する面倒を感じさせないように「お知らせ内容」をモーダルで表示。「お知らせ内容」を外部と共有できるようにモーダルにURLを実装。"},
+      {heading: "改善点", body: "記事内容を開いた際に通信待ち時間が発生する点。記事内容を共有するにはAPIを記事を開いた時に叩く必要があると考え妥協した。"},
+      {heading: "開発期間", body: "約3日間"},
     ],
     techs: [
       {names: "Next.js", icon: "/logos/nextdotjs.svg"},
@@ -24,7 +25,7 @@ export const worksData: WorksData = [
       {names: "TypeScript", icon: "/logos/typescript.svg"},
     ],
     github: "github1",
-    vercel: "vercel1",
+    vercel: "https://sample-corp-news-6t29sgs6u-ichis-projects-7f2e3961.vercel.app/",
     id: "1"
 
   },
@@ -37,6 +38,7 @@ export const worksData: WorksData = [
       {heading: "主な機能", body: "テキストテキストテキスト"},
       {heading: "使用技術", body: "テキストテキストテキスト"},
       {heading: "工夫した点", body: "テキストテキストテキスト"},
+      {heading: "開発期間", body: "テキストテキストテキスト"},
     ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},
@@ -55,6 +57,7 @@ export const worksData: WorksData = [
       {heading: "主な機能", body: "テキストテキストテキスト"},
       {heading: "使用技術", body: "テキストテキストテキスト"},
       {heading: "工夫した点", body: "テキストテキストテキスト"},
+      {heading: "開発期間", body: "テキストテキストテキスト"},
     ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},
@@ -73,6 +76,7 @@ export const worksData: WorksData = [
       {heading: "主な機能", body: "テキストテキストテキスト"},
       {heading: "使用技術", body: "テキストテキストテキスト"},
       {heading: "工夫した点", body: "テキストテキストテキスト"},
+      {heading: "開発期間", body: "テキストテキストテキスト"},
     ],
     techs: [
       {names: "React", icon: "/logos/react.svg"},

@@ -64,8 +64,8 @@ const WorksDetail = ({ item, onClose }: Props) => {
             <div className={styles.description}>
             {item.description?.map((content, i) => (
               <div key={i}>
-                <h4>{content.heading}</h4>
-                <p>{content.body}</p>
+                <h4 className={styles.h4}>{content.heading}</h4>
+                <p className={styles.contentBody}>{content.body}</p>
               </div>
             ))}
             </div>
