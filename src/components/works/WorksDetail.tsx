@@ -11,7 +11,6 @@ type Props = {
 };
 
 const WorksDetail = ({ item, onClose }: Props) => {
-  console.log(item)
   useEffect(() => {
     const scroll = document.body.style.overflow
     document.body.style.overflow = "hidden"
@@ -65,6 +64,12 @@ const WorksDetail = ({ item, onClose }: Props) => {
             {item.description?.map((content, i) => (
               <div key={i}>
                 <h4 className={styles.h4}>{content.heading}</h4>
+                {content.body.map((ex, index) => (
+                  <div key={index}>
+                  <p>{ex.ex}</p>
+                </div>
+                  ))}
+
                 <p className={styles.contentBody}>{content.body}</p>
               </div>
             ))}
