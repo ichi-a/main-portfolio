@@ -7,7 +7,9 @@ export type Tech = {
 
 export type Description = {
     heading: string
-    body: string
+    body: {
+        ex: string
+    }[]
 }
 
 export type Work = {

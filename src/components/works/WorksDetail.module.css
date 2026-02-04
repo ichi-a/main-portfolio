@@ -86,10 +86,10 @@
   padding: 10px;
   border-top: gray 1px solid;
 }
-.contentBody {
-  margin: 5px 0 5px 0;
+.bodyItem {
+  padding: 0 5px;
   text-align: center;
-  padding: 10px;
+  line-height: 1.8;
 }
 .links {
   display: flex;

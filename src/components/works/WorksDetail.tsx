@@ -64,14 +64,13 @@ const WorksDetail = ({ item, onClose }: Props) => {
             {item.description?.map((content, i) => (
               <div key={i}>
                 <h4 className={styles.h4}>{content.heading}</h4>
-                {content.body.map((ex, index) => (
-                  <div key={index}>
-                  <p>{ex.ex}</p>
+                {content.body.map((bodyItem, index) => (
+                <div key={index}>
+                  <p className={styles.bodyItem}>{bodyItem.ex}</p>
                 </div>
                   ))}
-
-                <p className={styles.contentBody}>{content.body}</p>
               </div>
+
             ))}
             </div>
             {/* リンク */}
