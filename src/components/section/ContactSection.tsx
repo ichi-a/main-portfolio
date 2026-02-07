@@ -6,7 +6,6 @@ const ContactSection = () => {
 
     <section id="contact-section" className={styles.section}>
       <div className={styles.titleWrap}>
-        <h2 className={styles.h2}>Contact</h2>
       </div>
       <div className={styles.contactContainer}>
         <div className={styles.text}>
@@ -14,8 +13,7 @@ const ContactSection = () => {
           <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
         <div className={styles.mail}>
-          <p>Mail:</p>
-          <a className={styles.adress} href="mailto:noichi.sy@gmail.com">noichi.sy@gmail.com</a>
+
         </div>
         <div className={styles.link}>
           <div className={styles.flex}>
