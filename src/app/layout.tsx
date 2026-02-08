@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
-// import { ScrollBg } from "@/animation/ScrollBg";
 
 <meta name="apple-mobile-portfolio" content="MyPortfolio" />
 
@@ -26,7 +25,11 @@ export const metadata: Metadata = {
     template: "%s | PortFolio",
     default: "PortFolio"
   },
-  description: "My PortFolio"
+  description: "My PortFolio",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout(

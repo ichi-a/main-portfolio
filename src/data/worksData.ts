@@ -1,13 +1,13 @@
 import { WorksData } from "@/types/workType";
 import sampleCorp from "@/assets/img/sampleCorp.png"
-import Shelfie from "@/assets/img/Shelfie.png"
+import Shelfie1 from "@/assets/img/Shelfie1.png"
 
 
 
 export const worksData: WorksData = [
   {
     title: "AIが好みを分析し提案する本棚アプリ",
-    image: Shelfie,
+    image: Shelfie1,
     description: [
       {heading: "概要", body: [{ex: "ユーザーの読書記録を分析し次に読む本を提案する本棚アプリ"}]},
       {heading: "使用技術", body: [{ex: "楽天BooksAPI, GeminiAPI, Firebase"}]},
@@ -19,8 +19,8 @@ export const worksData: WorksData = [
       ]},
       {heading: "工夫した点", body: [
         {ex: "- ユーザーの好みに合わせた提案をするため、点数とコメントを含めた本棚のデータをAIが分析。ユーザーに合わせたおすすめを提案。"},
-        {ex: "- UXを損わないようにローディングアニメーションやモーダル、本棚に追加時の挙動など細部に工夫。直感操作を意識。"},
-        {ex: "- UXを損わないようにローディングアニメーションやモーダル、本棚に追加時の挙動など細部に工夫。"},
+        {ex: "- UXを損わないようにローディングアニメーションやモーダル、本棚に追加時の挙動など細部に工夫。直感操作を意識。レスポンシブ対応。"},
+        {ex: "- "},
       ]},
       {heading: "改善点", body: [{ex: "APIの制限を回避する工夫がない点。本のデータをキャッシュし保存するなど工夫が必要。"}]},
       {heading: "開発期間", body: [{ex: "約10日間"}]},

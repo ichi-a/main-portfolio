@@ -59,6 +59,9 @@ const WorksDetail = ({ item, onClose }: Props) => {
             </div>
             {/* タイトル */}
             <h3 className={styles.title}>{item.title}</h3>
+            <div className={styles.demoWrap}>
+              <a target="blank" href={item.vercel} className={styles.appDemo}>アプリデモ</a>
+            </div>
             {/* description */}
             <div className={styles.description}>
             {item.description?.map((content, i) => (
