@@ -43,7 +43,6 @@ export default function RootLayout(
   return (
     <html lang="ja" className={`${inter.variable} ${noto.variable}`}>
       <body>
-        {/* <ScrollBg /> */}
         <Header />
         {children}
         <Footer />
