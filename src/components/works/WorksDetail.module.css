@@ -74,10 +74,23 @@
   margin-top: 25px;
   padding: 8px;
 }
+.demoWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: clamp(20px, 30px, 40px);
+}
+.appDemo {
+  text-decoration: underline;
+  color: #585858;
+}
+.appDemo:hover {
+  color:#767676
+}
 .description {
   max-width: 100%;
   margin: 0 auto;
-  padding: 32px 16px;
+  padding: 16px;
   margin-bottom: 30px;
 }
 .h4 {
