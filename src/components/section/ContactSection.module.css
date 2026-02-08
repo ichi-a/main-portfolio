@@ -17,13 +17,13 @@
   max-width: 1800px;
   margin: 50px auto 0;
   padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 
 .text {
-  grid-column: 3/4;
-  grid-row: 2/3;
+  line-height: 1.6;
+  text-align: center;
 }
 .mail {
   justify-content: center;
@@ -47,20 +47,13 @@
   transform: translateY(2px);
   margin-right: 2px;
 }
-.link {
-  display: flex;
-  place-items: center;
-  gap: 15px;
-  grid-column: 4/6;
-  grid-row: 4/5;
-  padding: 0 3vw 0 8vw;
-  /* pointer-events: none; */
-}
 .flex {
   display: flex;
+  justify-content: center;
 }
 .a {
   text-decoration: underline;
+  display: block;
 }
 .a:hover {
   color: #484848;

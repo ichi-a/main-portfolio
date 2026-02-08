@@ -16,12 +16,10 @@ const ContactSection = () => {
         <div className={styles.mail}>
 
         </div>
-        <div className={styles.link}>
           <div className={styles.flex}>
             <img src="logos/github.svg" alt="" className={styles.logo}/>
             <a target="blank" href="https://github.com/ichi-a" className={styles.a}>GitHub</a>
           </div>
-        </div>
       </div>
     </section>
   )
