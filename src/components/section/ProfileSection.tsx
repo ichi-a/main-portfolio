@@ -12,7 +12,7 @@ const ProfileSection = () => {
       <div className={styles.container}>
         <div className={styles.profCenter}>
           <div className={styles.imgwrap}>
-            <Image src={me} alt="顔写真" className={styles.img} />
+            <Image src={me} alt="顔写真" className={styles.img} priority/>
           </div>
           <p className={styles.p}>Shouhei Noichi</p>
         </div>
