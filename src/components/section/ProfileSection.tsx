@@ -1,5 +1,4 @@
-
-import styles from "./ProfileSection.module.css"
+import styles from "./ProfileSection.module.css";
 import Image from "next/image";
 import me from "@/assets/img/me.jpg";
 
@@ -18,15 +17,17 @@ const ProfileSection = () => {
         </div>
         <div className={styles.textContainer}>
           <div className={styles.textWrap}>
-            <p className={styles.line1}>大阪府池田市在住　前職は電気工事など</p>
+            <p className={styles.line1}>大阪府池田市在住　前職は電気工事士</p>
             <p className={styles.line2}>直感で操作でき、UXを損なわない設計</p>
             <p className={styles.line3}>全てに理由がある設計を心がけています</p>
-            <p className={styles.line4}>掲載しているアプリをぜひ見てください！</p>
+            <p className={styles.line4}>
+              掲載しているアプリをぜひ見てください！
+            </p>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default ProfileSection;

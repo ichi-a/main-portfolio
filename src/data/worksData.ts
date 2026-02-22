@@ -62,7 +62,7 @@ export const worksData: WorksData = [
       {names: "TypeScript", icon: "/logos/typescript.svg"},
     ],
     github: "https://github.com/ichi-a/shelfie",
-    vercel: "https://shelfie-u7nh-a7md45uax-ichis-projects-7f2e3961.vercel.app",
+    vercel: "https://shelfie-u7nh.vercel.app/",
     id: "2"
   },
   {
@@ -87,7 +87,7 @@ export const worksData: WorksData = [
       {names: "TypeScript", icon: "/logos/typescript.svg"},
     ],
     github: "https://github.com/ichi-a/Sample-Corp-News-App.git",
-    vercel: "https://sample-corp-news-6t29sgs6u-ichis-projects-7f2e3961.vercel.app/",
+    vercel: "https://sample-corp-news-app.vercel.app/",
     id: "3"
   },
 

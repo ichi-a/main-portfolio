@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 <meta name="apple-mobile-portfolio" content="MyPortfolio" />
 
@@ -47,6 +48,7 @@ export default function RootLayout(
         {children}
         <Footer />
       </body>
+    <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID as string} />
     </html>
   );
 }
